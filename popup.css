@@ -1,0 +1,67 @@
+.container {
+  width: 280px;
+  background-color: #f0f4f8;
+  color: #333;
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: bold;
+  color: #0a58ca;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.textbox {
+  width: 100%;
+  font-size: 13px;
+  padding: 4px;
+  border: 1px solid #aaa;
+}
+
+.textbox:focus {
+  border-color: #0a58ca;
+  outline: none;
+}
+
+.bookmarks {
+  margin-top: 10px;
+}
+
+.bookmark {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 6px;
+  margin-bottom: 8px;
+}
+
+.bookmark-title {
+  font-size: 13px;
+  padding-right: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bookmark-controls {
+  display: flex;
+  gap: 5px;
+}
+
+.bookmark-controls img {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.row {
+  font-size: 13px;
+  color: #666;
+  text-align: center;
+  padding-top: 10px;
+}
